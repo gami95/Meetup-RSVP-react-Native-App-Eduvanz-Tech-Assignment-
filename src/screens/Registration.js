@@ -135,7 +135,6 @@ const Registration = ({navigation}) => {
 
   
   const clearData = async () => {
-    setshowAlert(true);
     reset({name: '', age: '', location: ''});
     setguestCountValue(0);
     setprofessionValue(0);   
